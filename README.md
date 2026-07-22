@@ -1,3 +1,12 @@
+## Notre Sujet
+
+Dataset Kaggle de 50 000 étudiants (heures d'usage de l'IA générative, notes, temps de travail, anxiété, filière...). 
+Le but est d'étudier l'impact de l'IA sur le travail et la performance académique
+
+## Pipeline
+
+1. Import du CSV dans HDFS
+2. Lecture et parsing avec Spark
 3. Nettoyage (vérification doublons/valeurs manquantes)
 4. Statistiques descriptives
 5. Machine Learning : régression linéaire codée à la main (équation normale, sans librairie ML), pour prédire le GPA à partir des heures d'usage IA et de travail classique
