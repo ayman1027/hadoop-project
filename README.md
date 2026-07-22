@@ -1,6 +1,6 @@
 ## Notre Sujet
 
-Dataset Kaggle de 50 000 étudiants (heures d'usage de l'IA générative, notes, temps de travail, anxiété, filière...). 
+Dataset Kaggle de 50 000 étudiants (heures d'usage de l'IA générative, notes, temps de travail, anxiété, filière...) 
 Le but est d'étudier l'impact de l'IA sur le travail et la performance académique
 
 ## Pipeline
@@ -20,7 +20,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 
-Copier `.env.example` en `.env` et renseigner le chemin de son JDK et l'URI HDFS.
+Copier `.env.example` en `.env` et renseigner le chemin de son JDK et l'URI HDFS
 
 ## Lancer
 

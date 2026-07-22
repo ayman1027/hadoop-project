@@ -4,7 +4,7 @@ st.title("Prédiction du GPA — Impact de l'IA sur les étudiants")
 
 st.write("Renseigne les infos de l'étudiant pour prédire son GPA de fin de semestre.")
 
-# Coefficients trouvés par notre régression linéaire (calculée dans le notebook)
+# Coefficients trouvés par notre régression linéaire (calculé dans le notebook)
 a1 = 0.0001881948890953249   # poids Weekly_GenAI_Hours
 a2 = 0.013279717267157385    # poids Traditional_Study_Hours
 b = 3.1988574104584497        # constante
